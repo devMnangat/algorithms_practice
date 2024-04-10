@@ -1,0 +1,27 @@
+/* while do loop
+*/
+
+ALGORITHM iterative_while 
+
+
+VAR 
+    count : INTEGER := 0;
+     // n is the number to test 
+     n : INTEGER;    
+
+
+BEGIN  
+
+WHILE (n%2 = 0 ) DO  
+/* while the condition is true  then it will repeat the instruction  until the condition will be false     */
+
+
+    n := n/2; // every time we divide the number n by 2 and    
+    
+    count := count +1; // increment the count by 1   
+    
+END_WHILE  
+
+    Write(count) 
+
+END
